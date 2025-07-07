@@ -88,10 +88,10 @@ How it works on a target device:<br/>
 - **match:**
     Provide a one or many text that can be a match separated by '<#>' using the **-m / --match** argument.<br/>
     Example: -m "<title>.*<\/title>"<br/>
-    Example: -m "<title>.*<\/title><#><h1>.*<\/h1>"
+    Example: -m "<title>.*<\/title><#><h1>\.\*<\/h1>"
 
 - **Replacements:**
     Provide replacements for each possible match using the **-l / --load** argument.<br/>
     Example: -m "<title>H4cked! ;D<\/title>"<br/>
-    Example: -m "<title>H4cked! ;D<\/title><#><h1>You have been hacked! ;D<\/h1>"
+    Example: -m "<title>H4cked! ;D<\/title><\#><h1>You have been hacked! ;D<\/h1>"
 

@@ -47,7 +47,7 @@ Execute all commands on a PowerShell.
 1. First, retrive cert file:
 
 ```powershell
-curl -o mitmproxy.cer https://github.com/sammy-ulfh/https_sniffer/raw/refs/heads/main/script/cert/mitmproxy.cer
+curl -o https://github.com/sammy-ulfh/traffic_hijacking/raw/refs/heads/main/script/https/cert/mitmproxy.cer
 ```
 
 2. Second, run **mitmproxy** on your sniffing device.
